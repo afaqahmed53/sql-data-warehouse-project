@@ -1,3 +1,11 @@
+/*
+======================================================
+Stored Procedure = Load Bronze layer (Source-> Bronze)
+======================================================
+This Script loads data from external csv file to the tables in bronze layer!
+
+*/
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 	BEGIN TRY
